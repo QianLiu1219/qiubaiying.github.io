@@ -12,7 +12,7 @@ github_repo: "https://github.com/qianliu1219/qianliu1219.github.io.git" # you co
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "再吃一颗苹果。"
-sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar:  "http://qianliu1219.github.io"     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
