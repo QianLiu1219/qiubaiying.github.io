@@ -6,7 +6,7 @@ email: liu.qian7485@gmail.com
 description: "Enjoy the awsome world."
 keyword: "LQ, LQ's Blog, LQ的博客, qianliu1219, Deep learning, Python, Shell, R, Linux, Git"
 url: "http://qianliu1219.github.io"          # your host, for absolute URL
-baseurl: "http://qianliu1219.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qianliu1219/qianliu1219.github.io.git" # you code repository
 
 # Sidebar settings
