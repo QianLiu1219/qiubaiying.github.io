@@ -60,15 +60,14 @@ kramdown:
 # disqus_username: disqus_T1vkVmA1Lv
 
 # Gitalk
- gitalk:
-   enable: true    #是否开启Gitalk评论
-   clientID: cfca443057b7b5fa9bbf                            #生成的clientID
-   clientSecret: daf1a7502c013ed7ec4cd221ffb8741ee0874ff6    #生成的clientSecret
-   repo: qianliu1219.github.io    #仓库名称
-   owner: qianliu1219    #github用户名
-   admin: qianliu1219
-   distractionFreeMode: true #是否启用类似FB的阴影遮罩
- 
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: cfca443057b7b5fa9bbf                            #生成的clientID
+  clientSecret: daf1a7502c013ed7ec4cd221ffb8741ee0874ff6    #生成的clientSecret
+  repo: qianliu1219.github.io    #仓库名称
+  owner: qianliu1219    #github用户名
+  admin: qianliu1219
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # 统计
 
