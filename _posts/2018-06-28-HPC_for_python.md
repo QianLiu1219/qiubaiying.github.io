@@ -22,12 +22,12 @@ tags:
     check version : python --version
     active virtual environment : virtualenv LQENV
 	install packages : pip install ...
-
+ 
 # Basic operations new
 
     script name : sys.argv
     variable uid : id()
-
+ 
 # Function
 
 write a function called **fact1** in script **fact.py**. 
@@ -51,6 +51,7 @@ write another script **hello.py** in which call the function **fact1**.
     :wq
 
     chmod +x fact.py hello.py
+
 run the script **hello.py**
 
     ./hello.py
