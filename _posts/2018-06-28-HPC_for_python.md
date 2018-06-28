@@ -27,3 +27,30 @@ tags:
 
     script name : sys.argv
     variable uid : id()
+
+# Function
+
+write a function called **fact1** in script **fact.py**. 
+
+    vim fact.py
+    def fact1(n):
+        assert n >=0,'negative factorial cannot be'
+        assert type(n) == int,'only intergers'
+        if n <= 1 :
+        return 1
+        else:
+        retern n*fact1(n-1)
+    :wq
+
+write another script **hello.py** in which call the function **fact1**.
+
+    vim hello.py
+    #!/user/qianl/python
+    import fact
+    print ('factotial of 7 is ',fact.fact1(7))
+    :wq
+
+    chmod +x fact.py hello.py
+run the script **hello.py**
+
+    ./hello.py
