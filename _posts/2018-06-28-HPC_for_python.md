@@ -1,19 +1,19 @@
 ---
 layout:     post
-title:      Python in HPC
-subtitle:   humble one
+title:      Python
+subtitle:   notes for self
 date:       2018-06-28
 author:     LQ
 header-img: img/post-bg-ios9-web.jpg
 catalog: false
 tags:
-    - Python 
+    - Python  
 ---
 
->Compute Canada 2018 Summer School
+>
 
 
-# Setup
+## Compute Canada
 
     login cedar : ssh -Y
     initial a job : salloc --time=3:0:0 --mem-per-cpu=3000 --account=wgssum-wa --reservation=wgssum-wr_cpu
@@ -23,12 +23,15 @@ tags:
     active virtual environment : virtualenv LQENV
 	install packages : pip install ...
  
-# Basic operations new
+## Basic operations 
 
+    virtal environment for python3 : 
+        pip3 install --upgrade virtualenv
+        virtualenv -p python3 LQENV
     script name : sys.argv
     variable uid : id()
  
-# Function
+## Function
 
 write a function called **fact1** in script **fact.py**. 
 
