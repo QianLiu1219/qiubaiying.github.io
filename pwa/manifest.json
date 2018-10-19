@@ -1,7 +1,7 @@
 {
-  "name": "LQ's Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "LQ's World",
+  "short_name": "LQ",
+  "description": "A small place",
   "icons": [{
     "src": "icons/pwa_icon_128.png",
     "sizes": "128x128",
